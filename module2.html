@@ -1,0 +1,97 @@
+<html><head>
+	<title>Assignment Solution for Module 2</title>
+	<style>
+
+* {
+	box-sizing: border-box;
+}
+
+.container {
+	width: 100%;
+  	margin: 1px;
+  	margin-right: auto;
+  	margin-left: auto;
+
+}
+
+h1 {
+	text-align: center;
+	color: #009FFF;
+}
+
+.row > div {
+	margin-right: px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	padding: 5px;
+	background-color: #009FCC;
+	float: left;
+	border: 2px solid black;
+}
+
+.box1 {
+	background-color: orange;
+	width: 200px;
+	height: 40px;
+	color: black;
+	padding: 5px;
+ 	font-size: 25px;
+	float: right;
+	border: 2px solid black;
+	
+	text-align: center;
+	display: block;
+}
+
+/* Desktop version */
+
+@media (min-width: 1200px) {
+	.col-lg-4 {
+		width: 33.33%;
+	}
+}
+
+/* Tablet version */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+	.col-md-6 {
+		width: 50%;
+	}
+
+	.col-md-12 {
+		width: 100%;
+	}
+}
+
+/* Mobile Version */
+
+@media (max-width: 991px) {
+	.col-sm-12 {
+		width: 100%;
+	}
+}
+	</style>
+
+</head>
+<body>
+	<div class="container">
+		<h1>Our Menu</h1>
+		<div class="row">
+			<div class="col-lg-4 col-md-6 col-sm-12">
+				<div class="box1"><b>Chole Batoore</b></div>
+				<p>A paragraph is a self-contained unit of a discourse in writing dealing with a particular point or idea. A paragraph consists of one or more sentences. Though not required by the syntax of any language, paragraphs are usually an expected part of formal writing, used to organize longer prose...</p>
+			</div>
+
+			<div class="col-lg-4 col-md-6 col-sm-12">
+				<div class="box1"><b>Matar Paneer</b></div>
+				<p>A paragraph is a self-contained unit of a discourse in writing dealing with a particular point or idea. A paragraph consists of one or more sentences. Though not required by the syntax of any language, paragraphs are usually an expected part of formal writing, used to organize longer prose...</p>
+			</div>
+
+			<div class="col-lg-4 col-md-12 col-sm-12">
+				<div class="box1"><b>Paw Bhaji</b></div>
+				<p>A paragraph is a self-contained unit of a discourse in writing dealing with a particular point or idea. A paragraph consists of one or more sentences. Though not required by the syntax of any language, paragraphs are usually an expected part of formal writing, used to organize longer prose...</p>
+			</div>
+		</div>
+	</div>
+
+</body></html>
